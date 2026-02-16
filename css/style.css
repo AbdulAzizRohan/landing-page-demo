@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header, footer {
+  background-color: #1f2937;
+  padding: 24px 256px;
+}
+
+footer {
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav  {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.main-content {
+  background-color: #1f2937;
+  padding: 24px 256px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.main-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main-content-text-large {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.main-content-text-small {
+  color: #e5e7eb;
+}
+
+.main-content img {
+  width: 70%;
+}
+
+.info-content {
+  padding: 24px 256px;
+}
+
+.info-content-header {
+  color: #1f2937;
+  padding: 24px 256px;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info-content-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-content-card {
+  height: 200px;
+  width: 200px;
+  border: 2 solid #3882f6;
+}
+
+.action {
+  padding: 24px 256px;
+}
+
+.action-card {
+  padding: 50px 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-card, button {
+  background-color: #3882F6;
+}
+
+button {
+  color: #f9faf8;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  border: solid 2px #f9faf8;
+  border-radius: 10px;
+}
+
+.action-card-text-header {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9faf8;
+}
+
+.action-card-text-description {
+  color: #e5e7eb;
+}
+
+.quote-content {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 24px 256px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
