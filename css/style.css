@@ -48,7 +48,7 @@ nav  {
 
 .main-content {
   background-color: #1f2937;
-  padding: 24px 256px;
+  padding: 124px 256px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,7 +77,7 @@ nav  {
 }
 
 .info-content {
-  padding: 24px 256px;
+  padding: 124px 256px;
 }
 
 .info-content-header {
@@ -101,7 +101,7 @@ nav  {
 }
 
 .action {
-  padding: 24px 256px;
+  padding: 124px 256px;
 }
 
 .action-card {
@@ -139,7 +139,7 @@ button {
 .quote-content {
   background-color: #e5e7eb;
   color: #1f2937;
-  padding: 24px 256px;
+  padding: 124px 256px;
 }
 
 .quote-content-quote {
